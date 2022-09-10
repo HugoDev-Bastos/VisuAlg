@@ -1,0 +1,25 @@
+Algoritmo "PAR_OU_IMPAR_FUNÇÃO"
+
+Var
+N :INTEIRO
+R :CARACTERE
+
+FUNÇÃO ParOuImpar(V :INTEIRO) :CARACTERE
+INICIO
+   SE (V%2 =0) ENTAO
+      RETORNE "PAR"
+      SENAO
+      RETORNE "IMPAR"
+   FIMSE
+FIMFUNCAO
+
+Inicio
+ESCREVAL("DDIGITE UM VALOR")
+LEIA(N)
+
+R<- ParOuImpar(N)
+
+ESCREVAL("O VALOR ", N, " É UM NÚMERO ", R)
+
+
+Fimalgoritmo

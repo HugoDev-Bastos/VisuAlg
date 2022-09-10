@@ -1,0 +1,22 @@
+Algoritmo "VETOR_SÓ_C"
+
+Var
+NOME :CARACTERE
+SoC: VETOR [1..10] DE CARACTERE
+C, Tot :INTEIRO
+Inicio
+PARA C <- 1 ATE 10 FACA
+     ESCREVA("DIGITE SEU NOME: ")
+     LEIA(NOME)
+     SE (COPIA(MAIUSC(NOME),1,1)="C") ENTAO
+            Tot <- Tot + 1
+            SoC[Tot] <- NOME
+     FIMSE
+FIMPARA
+
+ESCREVAL(" LISTAGEM FINAL")
+PARA C <-1 ATE Tot FACA
+     ESCREVAL(SoC[C])
+FIMPARA
+
+Fimalgoritmo

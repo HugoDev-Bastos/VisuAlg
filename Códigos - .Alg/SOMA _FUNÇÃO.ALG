@@ -1,0 +1,20 @@
+Algoritmo "SOMA _FUNÇÃO"
+
+Var
+V1, V2, S :INTEIRO
+
+FUNCAO SOMA(X, Y:INTEIRO): INTEIRO
+INICIO
+      RETORNE X + Y
+FIMFUNCAO
+
+Inicio
+      ESCREVAL("DIGOTE O PRIMEIRO VALOR: ")
+      LEIA(V1)
+      ESCREVAL("DIGIITE O SEGUNDO VALOR: ")
+      LEIA(V2)
+
+S <- SOMA(V1, V2)
+ESCREVAL("A SOMA ENTRE ", V1," E ", V2, " E IGUAL A", S)
+
+Fimalgoritmo
